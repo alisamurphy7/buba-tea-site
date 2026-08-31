@@ -1,0 +1,417 @@
+{
+  "syncedAt": "2026-08-31T05:43:27.233Z",
+  "currency": "IDR",
+  "categories": [
+    {
+      "id": "8",
+      "name": "Buba Signature",
+      "items": [
+        {
+          "id": "308",
+          "sortOrder": 999,
+          "name": "Lavender-Lemon Cloud",
+          "price": 119000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147535_308.png"
+        },
+        {
+          "id": "307",
+          "sortOrder": 999,
+          "name": "Matcha Cloud",
+          "price": 119000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148256_307.png"
+        },
+        {
+          "id": "306",
+          "sortOrder": 999,
+          "name": "Peach Cloud",
+          "price": 119000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148685_306.png"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Matcha",
+      "items": [
+        {
+          "id": "319",
+          "sortOrder": 999,
+          "name": "Blueberry Matcha",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787156152_319.png"
+        },
+        {
+          "id": "247",
+          "sortOrder": 999,
+          "name": "Mango Matcha",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148037_247.png"
+        },
+        {
+          "id": "244",
+          "sortOrder": 999,
+          "name": "Matcha Affogato",
+          "price": 69000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788089806_244.png"
+        },
+        {
+          "id": "22",
+          "sortOrder": 999,
+          "name": "Matcha Latte",
+          "price": 69000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787212767_22.png"
+        },
+        {
+          "id": "13",
+          "sortOrder": 999,
+          "name": "Matcha Lemon Jasmine Tea",
+          "price": 65000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787212816_13.png"
+        },
+        {
+          "id": "246",
+          "sortOrder": 999,
+          "name": "Matcha Orange",
+          "price": 69000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148414_246.png"
+        },
+        {
+          "id": "141",
+          "sortOrder": 999,
+          "name": "Strawberry Matcha",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149258_141.png"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Coffee",
+      "items": [
+        {
+          "id": "240",
+          "sortOrder": 999,
+          "name": "Americano",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787143423_240.png"
+        },
+        {
+          "id": "21",
+          "sortOrder": 999,
+          "name": "Boba Cream Coffee",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145149_21.png"
+        },
+        {
+          "id": "242",
+          "sortOrder": 999,
+          "name": "Cappuccino",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145306_242.png"
+        },
+        {
+          "id": "243",
+          "sortOrder": 999,
+          "name": "Coffee Affogato",
+          "price": 69000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788089755_243.png"
+        },
+        {
+          "id": "241",
+          "sortOrder": 999,
+          "name": "Coffee Latte",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787156064_241.png"
+        },
+        {
+          "id": "287",
+          "sortOrder": 999,
+          "name": "Coffee Orange",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147206_287.png"
+        },
+        {
+          "id": "239",
+          "sortOrder": 999,
+          "name": "Espresso",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147251_239.png"
+        },
+        {
+          "id": "288",
+          "sortOrder": 999,
+          "name": "Espresso Tonic",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147278_288.png"
+        },
+        {
+          "id": "205",
+          "sortOrder": 999,
+          "name": "Peanut Butter Latte",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148728_205.png"
+        },
+        {
+          "id": "286",
+          "sortOrder": 999,
+          "name": "V60",
+          "price": 75000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149451_286.png"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Pure tea",
+      "items": [
+        {
+          "id": "330",
+          "sortOrder": 999,
+          "name": "Ceylon Black Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149422_106.png"
+        },
+        {
+          "id": "331",
+          "sortOrder": 999,
+          "name": "Da Hong Pao Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149422_106.png"
+        },
+        {
+          "id": "101",
+          "sortOrder": 999,
+          "name": "Jasmine Green Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787222701_101.png"
+        },
+        {
+          "id": "106",
+          "sortOrder": 999,
+          "name": "Pu-erh Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149422_106.png"
+        },
+        {
+          "id": "105",
+          "sortOrder": 999,
+          "name": "Tie Guan Yin Oolong Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149379_105.png"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Milk tea",
+      "items": [
+        {
+          "id": "278",
+          "sortOrder": 999,
+          "name": "Ceylon Teapuccino",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087518_278.png"
+        },
+        {
+          "id": "279",
+          "sortOrder": 999,
+          "name": "D.Roasted Oolong Teapuccino",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788088302_279.png"
+        },
+        {
+          "id": "280",
+          "sortOrder": 999,
+          "name": "Jasmine Teapuccino",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788088334_280.png"
+        },
+        {
+          "id": "277",
+          "sortOrder": 999,
+          "name": "Pu-erh Teapuccino",
+          "price": 59000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788088364_277.png"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Fruit tea",
+      "items": [
+        {
+          "id": "11",
+          "sortOrder": 999,
+          "name": "Berries Oolong Tea",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787144845_11.png"
+        },
+        {
+          "id": "12",
+          "sortOrder": 999,
+          "name": "Mango Lychee Jasmine Tea",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147681_12.png"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Fit & protein",
+      "items": [
+        {
+          "id": "289",
+          "sortOrder": 999,
+          "name": "Banana Protein Latte",
+          "price": 85000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787144818_289.png"
+        },
+        {
+          "id": "10",
+          "sortOrder": 999,
+          "name": "Citrus Harmony Jasmine Tea",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145393_10.png"
+        },
+        {
+          "id": "309",
+          "sortOrder": 999,
+          "name": "Grapefruit Jasmine Tea",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147309_309.png"
+        },
+        {
+          "id": "196",
+          "sortOrder": 999,
+          "name": "Rosella-Lychee Oolong Tea",
+          "price": 79000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787149231_196.png"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Gelato",
+      "items": [
+        {
+          "id": "291",
+          "sortOrder": 999,
+          "name": "Bounty Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087028_291.jpeg"
+        },
+        {
+          "id": "231",
+          "sortOrder": 999,
+          "name": "Dark Chocolate Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788086763_231.jpeg"
+        },
+        {
+          "id": "299",
+          "sortOrder": 999,
+          "name": "Mango Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788086963_299.jpeg"
+        },
+        {
+          "id": "265",
+          "sortOrder": 999,
+          "name": "Matcha Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087011_265.jpeg"
+        },
+        {
+          "id": "232",
+          "sortOrder": 999,
+          "name": "Mint-Chocolate Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788086980_232.jpeg"
+        },
+        {
+          "id": "264",
+          "sortOrder": 999,
+          "name": "Palette Gelato",
+          "price": 100000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148641_264.png"
+        },
+        {
+          "id": "230",
+          "sortOrder": 999,
+          "name": "Passion Fruit Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788086996_230.jpeg"
+        },
+        {
+          "id": "233",
+          "sortOrder": 999,
+          "name": "Vanilla Gelato",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087690_233.png"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Food",
+      "items": [
+        {
+          "id": "249",
+          "sortOrder": 999,
+          "name": "Chocolatine",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145334_249.png"
+        },
+        {
+          "id": "252",
+          "sortOrder": 999,
+          "name": "Cinnamon Roll",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145362_252.png"
+        },
+        {
+          "id": "315",
+          "sortOrder": 999,
+          "name": "Onigiri",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148540_315.png"
+        },
+        {
+          "id": "251",
+          "sortOrder": 999,
+          "name": "Pistachio Roll",
+          "price": 60000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787148780_251.png"
+        },
+        {
+          "id": "248",
+          "sortOrder": 999,
+          "name": "Plain Croissant",
+          "price": 40000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787922526_248.png"
+        },
+        {
+          "id": "329",
+          "sortOrder": 999,
+          "name": "Salmon Poke Bowl",
+          "price": 129000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087138_329.jpeg"
+        },
+        {
+          "id": "257",
+          "sortOrder": 999,
+          "name": "Swiss Roll",
+          "price": 60000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788089350_257.png"
+        },
+        {
+          "id": "332",
+          "sortOrder": 999,
+          "name": "Tuna Poke Bowl",
+          "price": 109000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087154_332.jpeg"
+        }
+      ]
+    }
+  ]
+}

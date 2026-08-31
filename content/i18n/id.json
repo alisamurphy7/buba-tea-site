@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "lang": "id",
+    "locale": "id_ID",
+    "label": "Bahasa Indonesia",
+    "shortLabel": "ID"
+  },
+  "nav": {
+    "home": "Beranda",
+    "menu": "Menu",
+    "delivery": "Pesan Antar",
+    "catering": "Katering",
+    "visit": "Lokasi",
+    "order": "Pesan sekarang"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "callUs": "Telepon kami",
+    "getDirections": "Lihat rute",
+    "howToGetHere": "Cara ke sini",
+    "orderDelivery": "Pesan antar",
+    "seeMenu": "Lihat menu",
+    "seeFullMenu": "Lihat menu lengkap",
+    "bookCatering": "Minta penawaran",
+    "openNow": "Buka sekarang",
+    "closedNow": "Sedang tutup",
+    "opensAt": "Buka pukul {time}",
+    "closesAt": "Tutup pukul {time}",
+    "from": "mulai",
+    "priceFrom": "mulai {price}",
+    "today": "Hari ini",
+    "days": {
+      "mon": "Senin",
+      "tue": "Selasa",
+      "wed": "Rabu",
+      "thu": "Kamis",
+      "fri": "Jumat",
+      "sat": "Sabtu",
+      "sun": "Minggu"
+    },
+    "closed": "Tutup",
+    "backToTop": "Ke atas",
+    "menuSyncedNote": "Harga diambil dari kasir kami dan dapat berubah.",
+    "allRightsReserved": "Seluruh hak cipta dilindungi.",
+    "privacy": "Kebijakan privasi",
+    "terms": "Ketentuan penggunaan",
+    "langSwitcher": "Bahasa",
+    "skipToContent": "Lompat ke konten"
+  },
+  "pages": {
+    "home": {
+      "title": "Buba Tea — tea bar, matcha, dan kopi specialty di Bali",
+      "description": "Teh daun diseduh per pesanan, matcha ceremonial, kopi specialty, dan pastry segar. Makan di tempat, pesan antar, dan bar keliling untuk acara.",
+      "hero": {
+        "kicker": "Bali",
+        "h1": "Teh yang layak dinikmati pelan-pelan",
+        "lead": "Kami menyeduh oolong, pu-erh, dan melati daun utuh per cangkir, mengocok matcha ceremonial, dan menarik espresso specialty. Pastry dipanggang pagi itu juga.",
+        "imageAlt": "Tamu memegang minuman Buba Tea"
+      },
+      "usp": {
+        "title": "Apa yang membedakan kami",
+        "items": [
+          {
+            "title": "Daun asli, bukan bubuk",
+            "text": "Tie Guan Yin, oolong panggang, pu-erh, dan melati datang dari petani Tiongkok dan diseduh per cangkir. Tanpa base sirup, tanpa campuran instan."
+          },
+          {
+            "title": "Matcha ceremonial",
+            "text": "Dikocok segar untuk setiap pesanan. Ini alasan kebanyakan orang kembali — dan dasar dari Matcha Cloud kami."
+          },
+          {
+            "title": "Pastry dari panggangan pagi",
+            "text": "Croissant, cruffin, cinnamon roll, dan burnt cheesecake dipanggang setiap hari dan biasanya habis menjelang sore."
+          },
+          {
+            "title": "Tempat untuk berlama-lama",
+            "text": "Marmer hijau, bonsai, keteduhan, dan tanaman. Wi-Fi cepat dan colokan — mampir untuk kopi, betah dua jam kerja."
+          }
+        ]
+      },
+      "signature": {
+        "title": "Minuman andalan",
+        "lead": "Kalau ini kunjungan pertama Anda, mulailah dari sini.",
+        "cta": "Lihat menu lengkap"
+      },
+      "gallery": {
+        "title": "Di dalam Buba Tea",
+        "alts": [
+          "Meja bar marmer hijau dengan logo Buba Tea dan bonsai",
+          "Teras terbuka dengan pepohonan dan lantai ubin",
+          "Tamu dengan minuman Buba Tea"
+        ]
+      },
+      "visitBlock": {
+        "title": "Mampir ke kami",
+        "lead": "Buka setiap hari. Datang langsung, atau pesan dulu lewat WhatsApp dan tinggal ambil."
+      },
+      "deliveryBlock": {
+        "title": "Malas keluar?",
+        "lead": "Kami antar ke sekitar area lewat GoFood dan GrabFood — atau chat WhatsApp dan kami atur langsung.",
+        "cta": "Pesan antar"
+      },
+      "cateringBlock": {
+        "title": "Tea bar di acara Anda",
+        "lead": "Kami bawa semuanya — matcha, teh, dan kopi — ke pernikahan, ulang tahun, pesta villa, dan pemotretan.",
+        "cta": "Minta penawaran"
+      },
+      "faq": {
+        "title": "Pertanyaan umum",
+        "items": [
+          {
+            "q": "Di mana lokasi kalian?",
+            "a": "Alamat, jam buka, dan tautan langsung ke rute Google Maps ada di halaman Lokasi."
+          },
+          {
+            "q": "Apakah ada pesan antar?",
+            "a": "Ada. Kami tersedia di GoFood dan GrabFood, dan Anda juga bisa memesan langsung lewat WhatsApp."
+          },
+          {
+            "q": "Ada pilihan tanpa susu?",
+            "a": "Ada. Hampir semua minuman bisa dibuat dengan susu oat atau almond, dan seluruh lini teh memang tanpa susu."
+          },
+          {
+            "q": "Bisa kerja dari kafe kalian?",
+            "a": "Bisa — ada Wi-Fi, colokan, dan tempat duduk teduh. Paling tenang di pagi hari dan menjelang sore."
+          },
+          {
+            "q": "Apakah melayani katering acara?",
+            "a": "Ya. Kami bawa bar teh dan kopi keliling lengkap dengan barista, mulai 20 tamu. Pesan minimal 3 hari sebelumnya."
+          }
+        ]
+      }
+    },
+    "menu": {
+      "title": "Menu — Buba Tea Bali",
+      "description": "Menu lengkap: teh daun, seri matcha, kopi specialty, gelato, dan pastry. Harga dalam rupiah.",
+      "h1": "Menu",
+      "lead": "Dibuat per pesanan. Harga dalam rupiah.",
+      "jumpTo": "Loncat ke",
+      "emptyNote": "Menu sedang diperbarui. Chat WhatsApp dan kami beri tahu apa yang tersedia hari ini.",
+      "ctaTitle": "Mau diantar?",
+      "ctaLead": "Menu lengkap tersedia di GoFood dan GrabFood."
+    },
+    "delivery": {
+      "title": "Pesan antar Buba Tea di Bali — matcha, teh, dan kopi",
+      "description": "Pesan Buba Tea lewat GoFood, GrabFood, atau langsung di WhatsApp. Matcha, teh daun, kopi specialty, dan pastry segar diantar ke sekitar area.",
+      "h1": "Pesan antar",
+      "lead": "Minuman yang sama seperti di kafe, dikemas untuk perjalanan. Pesan lewat aplikasi biasa Anda, atau chat kami langsung.",
+      "options": {
+        "title": "Tiga cara memesan",
+        "gofood": {
+          "title": "GoFood",
+          "text": "Menu lengkap kami, dengan promo yang sedang berjalan di GoFood.",
+          "cta": "Buka di GoFood"
+        },
+        "grabfood": {
+          "title": "GrabFood",
+          "text": "Menu yang sama. Biasanya lebih cepat saat jam sibuk.",
+          "cta": "Buka di GrabFood"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "text": "Paling cocok untuk pesanan besar, pesanan kantor, atau apa pun yang ingin disesuaikan.",
+          "cta": "Pesan lewat WhatsApp"
+        }
+      },
+      "travelsWell": {
+        "title": "Yang paling tahan di jalan",
+        "lead": "Semuanya aman diantar, tapi ini pilihan kami untuk perjalanan jauh."
+      },
+      "faq": {
+        "title": "Pertanyaan pesan antar",
+        "items": [
+          {
+            "q": "Berapa lama sampainya?",
+            "a": "Biasanya 20 sampai 40 menit tergantung lokasi dan kondisi jalan. GoFood dan GrabFood menampilkan estimasi langsung."
+          },
+          {
+            "q": "Ada minimum pesanan?",
+            "a": "Tidak ada minimum di GoFood dan GrabFood. Untuk pesanan WhatsApp, minimal 3 minuman."
+          },
+          {
+            "q": "Esnya tidak mencair?",
+            "a": "Minuman dingin kami kemas dengan es ekstra dan tutup tersegel. Untuk perjalanan jauh, minta esnya dipisah."
+          },
+          {
+            "q": "Bisa pesan untuk jam tertentu?",
+            "a": "Bisa — chat WhatsApp dan sebutkan jam yang Anda inginkan."
+          }
+        ]
+      }
+    },
+    "catering": {
+      "title": "Katering acara di Bali — bar matcha, teh, dan kopi keliling",
+      "description": "Bar Buba Tea untuk pernikahan, ulang tahun, pesta villa, acara kantor, atau pemotretan Anda. Termasuk barista, mulai 20 tamu. Minta penawaran.",
+      "h1": "Tea bar di acara Anda",
+      "lead": "Kami bawa meja bar, peralatan, barista, dan seluruh daftar minuman ke tempat Anda — teras villa, beach club, atau lokasi syuting.",
+      "formats": {
+        "title": "Yang kami kerjakan",
+        "items": [
+          {
+            "title": "Pernikahan",
+            "text": "Stasiun welcome drink, bar matcha saat resepsi, atau keduanya."
+          },
+          {
+            "title": "Ulang tahun",
+            "text": "Minuman andalan dengan nama Anda di gelas, plus pastry dan gelato."
+          },
+          {
+            "title": "Acara kantor",
+            "text": "Offsite, peluncuran, dan office day — layanan tanpa batas untuk blok jam yang disepakati."
+          },
+          {
+            "title": "Pesta villa",
+            "text": "Kami pasang bar di teras dan melayani selama Anda butuhkan."
+          },
+          {
+            "title": "Pemotretan dan acara brand",
+            "text": "Katering untuk kru dan tamu, dengan tampilan bar yang bagus difoto."
+          }
+        ]
+      },
+      "included": {
+        "title": "Yang sudah termasuk",
+        "items": [
+          "Meja bar, peralatan, dan semua perlengkapannya",
+          "Satu barista, dan untuk acara besar ditambah satu orang lagi",
+          "Daftar minuman yang disepakati — matcha, teh daun, kopi, dan pilihan tanpa kafein",
+          "Gelas, tutup, sedotan, dan tisu",
+          "Pemasangan dan pembongkaran mengikuti jadwal Anda"
+        ]
+      },
+      "how": {
+        "title": "Cara kerjanya",
+        "steps": [
+          {
+            "title": "Ceritakan garis besarnya",
+            "text": "Tanggal, lokasi, jumlah tamu, dan berapa jam."
+          },
+          {
+            "title": "Kami kirim penawaran",
+            "text": "Harga tetap beserta daftar minuman, dalam satu hari."
+          },
+          {
+            "title": "Kami konfirmasi",
+            "text": "Uang muka mengunci tanggalnya. Sisanya dibayar setelah acara."
+          },
+          {
+            "title": "Kami datang lebih awal",
+            "text": "Pemasangan butuh sekitar satu jam sebelum tamu pertama tiba."
+          }
+        ]
+      },
+      "form": {
+        "title": "Minta penawaran",
+        "lead": "Isi ini dan WhatsApp akan terbuka dengan detail Anda sudah tertulis. Atau chat saja kami — mana yang lebih mudah.",
+        "fields": {
+          "name": "Nama Anda",
+          "date": "Tanggal acara",
+          "guests": "Jumlah tamu",
+          "place": "Lokasi atau area",
+          "type": "Jenis acara",
+          "notes": "Hal lain yang perlu kami tahu"
+        },
+        "placeholders": {
+          "name": "Anna",
+          "place": "Villa di Pererenan",
+          "notes": "Perkiraan jadwal, minuman yang pasti diinginkan, kebutuhan diet"
+        },
+        "typeOptions": {
+          "wedding": "Pernikahan",
+          "birthday": "Ulang tahun",
+          "corporate": "Acara kantor",
+          "villa": "Pesta villa",
+          "photoshoot": "Pemotretan atau acara brand",
+          "other": "Lainnya"
+        },
+        "submit": "Kirim lewat WhatsApp",
+        "note": "Belum ada pembayaran — kami kirim penawaran dulu.",
+        "minGuestsNote": "Kami melayani mulai {min} tamu, dengan pemberitahuan minimal {days} hari.",
+        "required": "Mohon isi nama dan tanggal Anda."
+      }
+    },
+    "visit": {
+      "title": "Lokasi Buba Tea — alamat, jam buka, dan rute",
+      "description": "Di mana menemukan Buba Tea di Bali: alamat, jam buka, parkir, dan rute di Google Maps.",
+      "h1": "Lokasi",
+      "lead": "Mampir kapan saja, tujuh hari seminggu. Kalau sedang buru-buru, chat WhatsApp dan pesanan Anda sudah siap saat tiba.",
+      "hoursTitle": "Jam buka",
+      "addressTitle": "Alamat",
+      "gettingHere": {
+        "title": "Cara ke sini",
+        "items": [
+          {
+            "title": "Naik motor",
+            "text": "Parkir gratis tepat di depan pintu masuk."
+          },
+          {
+            "title": "Naik mobil",
+            "text": "Parkir pinggir jalan di sekitar. Penuh saat jam makan siang, jadi datanglah sedikit lebih awal."
+          },
+          {
+            "title": "Jalan kaki",
+            "text": "Cari meja bar marmer hijau dan bonsai di jendela."
+          }
+        ]
+      },
+      "workFriendly": {
+        "title": "Kerja dari sini",
+        "text": "Wi-Fi, colokan di sebagian besar meja, dan teduh sepanjang sore. Paling tenang sebelum pukul 10 pagi dan menjelang sore."
+      }
+    },
+    "privacy": {
+      "title": "Kebijakan privasi — Buba Tea",
+      "description": "Bagaimana Buba Tea mengumpulkan dan menggunakan data di situs ini.",
+      "h1": "Kebijakan privasi",
+      "updated": "Terakhir diperbarui: {date}",
+      "sections": [
+        {
+          "title": "Tentang kami",
+          "text": "Situs ini dikelola oleh {legalName}, yang berbasis di Bali, Indonesia. Hubungi kami di {email}."
+        },
+        {
+          "title": "Apa yang kami kumpulkan",
+          "text": "Situs ini tidak meminta Anda membuat akun. Saat Anda memakai formulir katering, data yang Anda isi disusun menjadi pesan WhatsApp yang Anda kirim sendiri — kami baru menerimanya setelah Anda menekan kirim di WhatsApp. Kami juga mengumpulkan data penggunaan anonim (halaman yang dilihat, perkiraan wilayah, jenis perangkat, dari mana Anda datang) melalui Google Analytics dan Google Ads."
+        },
+        {
+          "title": "Cookie dan teknologi serupa",
+          "text": "Kami memakai cookie untuk dua hal: mengukur bagaimana situs digunakan, dan mengukur iklan mana yang membawa orang ke kami. Anda bisa menerima atau menolak saat kunjungan pertama, dan mengubahnya kapan saja lewat tautan di bagian bawah halaman. Menolak tidak membatasi apa pun di situs ini."
+        },
+        {
+          "title": "Periklanan",
+          "text": "Kami beriklan melalui Google Ads. Jika Anda menyetujui cookie iklan, Google dapat menampilkan iklan kami di situs lain dan memberi tahu kami, secara agregat, bagaimana performa kampanyenya. Kami tidak pernah menerima nama atau kontak Anda dengan cara ini."
+        },
+        {
+          "title": "Berapa lama kami menyimpannya",
+          "text": "Data analitik disimpan hingga 14 bulan. Percakapan WhatsApp soal katering disimpan selama kami mengatur acara Anda dan setelahnya untuk catatan pembukuan."
+        },
+        {
+          "title": "Pilihan Anda",
+          "text": "Anda dapat menanyakan data apa yang kami simpan, meminta kami menghapusnya, atau menarik persetujuan cookie. Kirim email ke {email} dan kami akan membalas dalam 30 hari."
+        },
+        {
+          "title": "Perubahan",
+          "text": "Jika kebijakan ini berubah, kami akan memperbarui tanggal di bagian atas halaman."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Ketentuan penggunaan — Buba Tea",
+      "description": "Ketentuan penggunaan situs Buba Tea.",
+      "h1": "Ketentuan penggunaan",
+      "updated": "Terakhir diperbarui: {date}",
+      "sections": [
+        {
+          "title": "Tentang ketentuan ini",
+          "text": "Situs ini disediakan oleh {legalName} untuk menampilkan menu, jam buka, dan layanan kami. Dengan menggunakannya, Anda menerima ketentuan di halaman ini."
+        },
+        {
+          "title": "Menu dan harga",
+          "text": "Menu diambil dari kasir kami, jadi mencerminkan apa yang kami sajikan hari ini. Meski begitu, item bisa habis dan harga bisa berubah tanpa pemberitahuan. Harga yang berlaku adalah harga di kasir atau di aplikasi pesan antar."
+        },
+        {
+          "title": "Pesanan dan pengantaran",
+          "text": "Pesanan lewat GoFood atau GrabFood tunduk pada ketentuan layanan masing-masing. Pesanan lewat WhatsApp dianggap terkonfirmasi setelah kami membalas dan menyepakati detailnya dengan Anda."
+        },
+        {
+          "title": "Pemesanan katering",
+          "text": "Permintaan penawaran belum berarti pemesanan. Tanggal terkunci setelah kami mengirim penawaran, Anda menyetujuinya, dan uang muka dibayarkan. Ketentuan pembatalan dicantumkan dalam penawaran."
+        },
+        {
+          "title": "Konten di situs ini",
+          "text": "Nama Buba Tea, logo, foto, dan teks adalah milik kami. Mohon tidak menggunakannya untuk keperluan komersial tanpa izin."
+        },
+        {
+          "title": "Tautan ke situs lain",
+          "text": "Kami menautkan ke GoFood, GrabFood, Google Maps, dan media sosial. Kami tidak bertanggung jawab atas apa yang terjadi di situs-situs tersebut."
+        },
+        {
+          "title": "Menghubungi kami",
+          "text": "Pertanyaan tentang ketentuan ini kirimkan ke {email}."
+        }
+      ]
+    },
+    "notFound": {
+      "title": "Halaman tidak ditemukan — Buba Tea",
+      "description": "Halaman ini tidak ada.",
+      "h1": "Halaman ini tidak ada",
+      "lead": "Tautannya mungkin sudah lama, atau kami memindahkan sesuatu. Coba lihat menu saja.",
+      "cta": "Buka menu"
+    }
+  },
+  "consent": {
+    "title": "Cookie",
+    "text": "Kami memakai cookie untuk melihat bagaimana situs digunakan dan iklan mana yang efektif. Anda boleh menolak — tidak ada yang berhenti berfungsi.",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "settings": "Pengaturan cookie",
+    "more": "Baca kebijakan privasi"
+  }
+}

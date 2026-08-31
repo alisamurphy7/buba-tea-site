@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "lang": "en",
+    "locale": "en_US",
+    "label": "English",
+    "shortLabel": "EN"
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "delivery": "Delivery",
+    "catering": "Catering",
+    "visit": "Visit us",
+    "order": "Order now"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "callUs": "Call us",
+    "getDirections": "Get directions",
+    "howToGetHere": "How to get here",
+    "orderOnline": "Order online",
+    "orderModal": {
+      "title": "Order online",
+      "lead": "Both apps carry the full menu. Pick whichever you already have.",
+      "close": "Close"
+    },
+    "orderDelivery": "Order delivery",
+    "seeMenu": "See the menu",
+    "seeFullMenu": "See the full menu",
+    "bookCatering": "Request a quote",
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "opensAt": "Opens at {time}",
+    "closesAt": "Closes at {time}",
+    "from": "from",
+    "priceFrom": "from {price}",
+    "today": "Today",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "closed": "Closed",
+    "backToTop": "Back to top",
+    "menuSyncedNote": "Prices are synced from our till and may change.",
+    "allRightsReserved": "All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "langSwitcher": "Language",
+    "skipToContent": "Skip to content"
+  },
+  "pages": {
+    "home": {
+      "title": "Buba Tea — the first healthy bubble tea in Bali",
+      "description": "No syrup bases, no preservatives. Tea shots pulled to order, purées made fresh each morning, ceremonial matcha from Japan. Bubble tea and matcha in Bali.",
+      "hero": {
+        "kicker": "Bali",
+        "h1": "The first healthy bubble tea and matcha in Bali",
+        "lead": "No syrup bases, no powders, no preservatives, and nothing standing in a dispenser for hours. Every tea shot is pulled to order, the fruit purées are made fresh each morning, and even the ice is our own.",
+        "cups": [
+          "Iced grapefruit tea with a slice of grapefruit",
+          "Brown sugar boba with tapioca pearls",
+          "Layered iced matcha over mango"
+        ],
+        "cupsLabel": "Our drinks",
+        "showDrink": "Show {name}"
+      },
+      "usp": {
+        "title": "What you are actually paying for",
+        "items": [
+          {
+            "title": "Tea pulled like espresso",
+            "text": "Most places brew tea in batches, and it sits losing flavour for hours. We extract every shot to order on a teapresso machine — the same idea as coffee, applied to tea.",
+            "icon": "teapresso"
+          },
+          {
+            "title": "Leaves from China, matcha from Japan",
+            "text": "We went and found them ourselves. Dozens of lots tasted in China before we picked the leaf, and a trip to Japan for ceremonial-grade matcha with the smoothest flavour.",
+            "icon": "leaf"
+          },
+          {
+            "title": "Coffee we build with the farm",
+            "text": "Our beans come from a Bali farm we work with directly. We visit it, choose the beans, and had a roasting profile developed for Buba Tea alone.",
+            "icon": "bean"
+          },
+          {
+            "title": "Purées made this morning",
+            "text": "Every fruit purée is ours, made from fresh fruit with no preservatives. We prepare them each morning, so what you taste is fruit and not syrup.",
+            "icon": "fruit"
+          },
+          {
+            "title": "Even the ice is ours",
+            "text": "Ice changes a cold drink more than people expect. We freeze our own from distilled water, fresh daily, so nothing muddies the taste as it melts.",
+            "icon": "ice"
+          },
+          {
+            "title": "Less waste, more care",
+            "text": "Reusable cups, and insulated bags that keep delivery orders properly cold on the way to you.",
+            "icon": "reusable"
+          }
+        ]
+      },
+      "community": {
+        "title": "More than drinks",
+        "text": "We regularly support charitable initiatives and help children in need in our community."
+      },
+      "closing": {
+        "title": "You're not just paying for tea — you're paying for the difference.",
+        "lead": "Come see what we mean."
+      },
+      "signature": {
+        "title": "Our drinks",
+        "lead": "Tap a category. Everything here is made to order — the tea shot pulled, the matcha whisked, the purée spooned in fresh.",
+        "signatureTab": "Signature",
+        "cta": "See the full menu"
+      },
+      "gallery": {
+        "title": "Inside Buba Tea",
+        "alts": [
+          "Tiered wooden seating under the cherry blossom tree, lit by the skylight",
+          "A wall of flowers with the sign: a flower for anyone who needs one today",
+          "A guest with a drink at the green marble counter",
+          "Shaded outdoor terrace with bamboo and concrete benches",
+          "Matcha served on a wooden tray with a steel jug",
+          "The entrance seen from the courtyard, with the green marble counter and bonsai"
+        ]
+      },
+      "visitBlock": {
+        "title": "Come by",
+        "lead": "We are open every day. Walk in, or order ahead on WhatsApp and pick it up."
+      },
+      "deliveryBlock": {
+        "title": "Not going out?",
+        "lead": "Delivery runs through GoFood and GrabFood — both carry the full menu. For large or custom orders, message us on WhatsApp.",
+        "cta": "Order delivery"
+      },
+      "cateringBlock": {
+        "title": "A tea bar at your event",
+        "lead": "We bring the whole setup — matcha, tea and coffee — to weddings, birthdays, villa parties and shoots.",
+        "cta": "Request a quote"
+      },
+      "faq": {
+        "title": "Common questions",
+        "items": [
+          {
+            "q": "What is tea espresso?",
+            "a": "Instead of brewing a big batch of tea and keeping it in a dispenser, we extract a concentrated tea shot to order on a teapresso machine, then build the drink around it. Nothing stands for hours, so the tea tastes the way it should."
+          },
+          {
+            "q": "Where are you located?",
+            "a": "See the Visit us page for the address, opening hours and a direct link to directions in Google Maps."
+          },
+          {
+            "q": "Do you deliver?",
+            "a": "Delivery is handled by GoFood and GrabFood, and both carry the full menu. For large or custom orders, message us on WhatsApp."
+          },
+          {
+            "q": "Do you have dairy-free milk?",
+            "a": "Yes — oat, coconut and soy."
+          },
+          {
+            "q": "Can I work from your cafe?",
+            "a": "Yes — we have Wi-Fi and sockets."
+          },
+          {
+            "q": "Do you cater private events?",
+            "a": "We do. We bring a full mobile tea and coffee bar with a barista to weddings, birthdays, villa parties and shoots. See the catering page and send us the details."
+          }
+        ]
+      }
+    },
+    "menu": {
+      "title": "Menu — Buba Tea Bali",
+      "description": "Full menu: leaf tea, matcha series, specialty coffee, gelato and pastry. Prices in IDR.",
+      "h1": "Menu",
+      "lead": "Brewed to order. Prices in Indonesian rupiah.",
+      "jumpTo": "Jump to",
+      "emptyNote": "The menu is being updated. Message us on WhatsApp and we will tell you what is on today.",
+      "ctaTitle": "Want it delivered?",
+      "ctaLead": "The full menu is available on GoFood and GrabFood.",
+      "milkNote": "Oat, coconut and soy milk available."
+    },
+    "delivery": {
+      "title": "Buba Tea delivery in Bali — matcha, tea and coffee",
+      "description": "Order Buba Tea on GoFood or GrabFood. Tea pulled to order, ice frozen from distilled water, and insulated bags so it arrives as cold as it left.",
+      "h1": "Delivery",
+      "lead": "The same drinks we serve at the counter, packed so the ride does not ruin them.",
+      "options": {
+        "title": "Where to order",
+        "gofood": {
+          "title": "GoFood",
+          "text": "The full menu, plus whatever promos GoFood is running.",
+          "cta": "Open in GoFood"
+        },
+        "grabfood": {
+          "title": "GrabFood",
+          "text": "The same full menu, if Grab is the app you already have.",
+          "cta": "Open in GrabFood"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "text": "For questions, large orders and anything you want put together differently. Delivery itself always goes through GoFood or GrabFood.",
+          "cta": "Order on WhatsApp"
+        }
+      },
+      "travelsWell": {
+        "title": "What travels best",
+        "lead": "Everything holds up, but these are the ones we would pick for a ride across town."
+      },
+      "faq": {
+        "title": "Delivery questions",
+        "items": [
+          {
+            "q": "How long does it take?",
+            "a": "GoFood and GrabFood give you a live estimate when you place the order — it depends on where you are and how the traffic is running."
+          },
+          {
+            "q": "Is it the same menu as in the cafe?",
+            "a": "Yes. Both apps carry the full menu, and the drinks are made exactly the same way."
+          },
+          {
+            "q": "Will it still be cold when it arrives?",
+            "a": "That is what the insulated bags and our own ice are for. Cold drinks are sealed and packed to hold their temperature for the ride."
+          },
+          {
+            "q": "Can I order something that is not in the app?",
+            "a": "Message us on WhatsApp — large orders and custom requests are easier to sort out directly, and we answer questions there too. The delivery itself still goes through GoFood or GrabFood."
+          }
+        ]
+      },
+      "packing": {
+        "title": "It arrives the way it left",
+        "lead": "Delivered bubble tea usually disappoints for one of two reasons: it went warm, or the ice watered it down. We deal with both.",
+        "items": [
+          {
+            "title": "Insulated bags",
+            "text": "Orders go out in insulated bags rather than paper ones, so a long ride does not turn a cold drink into a lukewarm one."
+          },
+          {
+            "title": "Ice that melts clean",
+            "text": "We freeze our own ice from distilled water every day. It melts without taste, so the bottom of the cup is not weaker than the top."
+          },
+          {
+            "title": "Made when you order",
+            "text": "Nothing is poured in advance. The tea shot is pulled and the drink built after your order comes in, not before."
+          }
+        ]
+      }
+    },
+    "catering": {
+      "title": "Event catering in Bali — mobile matcha, tea and coffee bar",
+      "description": "A Buba Tea bar at your wedding, birthday, villa party or shoot. Teapresso, ceremonial matcha and homemade purées, with a barista. Request a quote.",
+      "h1": "A tea bar at your event",
+      "lead": "We bring the counter, the equipment and a barista to you — the same teapresso bar, ceremonial matcha and morning-made purées we serve in Canggu.",
+      "formats": {
+        "title": "What we do",
+        "items": [
+          {
+            "title": "Weddings",
+            "icon": "rings"
+          },
+          {
+            "title": "Birthdays",
+            "icon": "cake"
+          },
+          {
+            "title": "Corporate events",
+            "icon": "building"
+          },
+          {
+            "title": "Villa parties",
+            "icon": "palm"
+          },
+          {
+            "title": "Shoots & brand events",
+            "icon": "camera"
+          }
+        ]
+      },
+      "included": {
+        "title": "What is included",
+        "items": [
+          "Bar counter, equipment and everything needed to run it",
+          "A Bubarista working the bar for the agreed hours",
+          "An agreed drinks list — matcha, leaf tea, coffee and a caffeine-free option",
+          {
+            "text": "A drink invented for you — name your fruit or flavour and we build it. Not on our menu, not at the counter.",
+            "highlight": true,
+            "icon": "sparkle"
+          },
+          {
+            "text": "A drinks card designed around your theme — the look, the names, the whole menu.",
+            "highlight": true,
+            "icon": "menucard"
+          },
+          "Cups, lids, straws and napkins",
+          "Setup and pack-down around your schedule"
+        ]
+      },
+      "how": {
+        "title": "How it works",
+        "steps": [
+          {
+            "title": "Tell us the basics",
+            "text": "Date, place, how many guests and how many hours you need the bar running."
+          },
+          {
+            "title": "We send a quote",
+            "text": "A fixed price with the drinks list, so there is nothing to work out on the day."
+          },
+          {
+            "title": "We confirm the date",
+            "text": "You accept the quote and pay the deposit — from that moment the date is yours and the drinks list is locked."
+          },
+          {
+            "title": "We arrive before your guests",
+            "text": "The bar is set up and running by the time the first guest walks in."
+          }
+        ]
+      },
+      "form": {
+        "title": "Request a quote",
+        "lead": "Fill this in and it opens WhatsApp with your details already written out. Or just message us — whatever is easier.",
+        "fields": {
+          "name": "Your name",
+          "date": "Event date",
+          "guests": "Number of guests",
+          "place": "Place or area",
+          "type": "Type of event",
+          "notes": "Anything else we should know",
+          "hours": "How many hours"
+        },
+        "placeholders": {
+          "name": "Anna",
+          "place": "Villa in Pererenan",
+          "notes": "Rough timing, any drinks you definitely want, dietary needs",
+          "hours": "3"
+        },
+        "typeOptions": {
+          "wedding": "Wedding",
+          "birthday": "Birthday",
+          "corporate": "Corporate event",
+          "villa": "Villa party",
+          "photoshoot": "Shoot or brand event",
+          "other": "Something else"
+        },
+        "submit": "Send on WhatsApp",
+        "note": "No payment now — we send a quote first.",
+        "required": "Please fill in your name and the date.",
+        "minOrderNote": "Catering starts at {min} drinks, booked at least {days} days ahead.",
+        "minOrderNoteWithPrepayment": "Catering starts at {min} drinks, booked at least {days} days ahead. A {prepay}% deposit confirms the date."
+      },
+      "heroImageAlt": "The Buba Tea catering cart, set up with dispensers and flowers",
+      "onSite": {
+        "title": "On the day",
+        "alts": [
+          "Guests being served at the Buba Tea cart during an event",
+          "Iced teas on a table by the pool at sunset"
+        ]
+      },
+      "reviews": {
+        "title": "What people say",
+        "label": "Reviews",
+        "prev": "Previous review",
+        "next": "Next review"
+      },
+      "serviceFormats": {
+        "title": "Three ways we come to you",
+        "lead": "The same tea, the same Bubaristas — you pick the setup that fits your venue.",
+        "items": [
+          {
+            "key": "kitchen",
+            "name": "Buba in the kitchen",
+            "note": "We set the bar up in your villa kitchen or on a table. Nothing to park, nothing to plug in outside."
+          },
+          {
+            "key": "cart",
+            "name": "Buba Cart",
+            "note": "The branded mint cart. Fits a terrace, a garden or a lobby, and becomes part of the decor."
+          },
+          {
+            "key": "van",
+            "name": "Buba Van",
+            "note": "The pink van with its awning. Needs parking space and a gate it can drive through — and turns into the photo spot of the event."
+          }
+        ]
+      },
+      "packages": {
+        "title": "Packages",
+        "lead": "Starting prices. Tell us your numbers and we will fit a package to them.",
+        "from": "from",
+        "items": [
+          {
+            "name": "Buba Essential",
+            "sub": "Buba in the kitchen",
+            "price": "IDR 5,000,000",
+            "items": [
+              "Up to 50 drinks",
+              "Choice of 2 drinks from the menu",
+              "1 Bubarista",
+              "Up to 2 hours of service",
+              "Additional drinks available"
+            ],
+            "add": "Add the Buba cart for an extra fee"
+          },
+          {
+            "name": "Buba Cart",
+            "sub": "The branded cart",
+            "price": "IDR 8,500,000",
+            "items": [
+              "Up to 90 drinks",
+              "Choice of 3 drinks from the menu",
+              "Branded Buba Cart",
+              "2 Bubaristas",
+              "Up to 3 hours of service",
+              "Additional drinks available"
+            ]
+          },
+          {
+            "name": "Buba Van",
+            "sub": "The pink van",
+            "price": "IDR 14,000,000",
+            "items": [
+              "Up to 160 drinks",
+              "Choice of 5 drinks from the menu",
+              "The Buba Van",
+              "2 Bubaristas",
+              "Up to 5 hours of service",
+              "Additional drinks available"
+            ]
+          }
+        ],
+        "pastry": "Not only drinks — we also serve pastry from our café menu: croissants, cinnamon rolls, pistachio rolls and more."
+      },
+      "addons": {
+        "title": "Add anything",
+        "lead": "Optional, and can be added to any package.",
+        "items": [
+          {
+            "label": "Extra hour of service",
+            "price": "from 100,000"
+          },
+          {
+            "label": "Extra Bubarista",
+            "price": "from 200,000"
+          },
+          {
+            "label": "One more drink on the menu",
+            "price": "from 300,000"
+          },
+          {
+            "label": "A drink invented for your event",
+            "price": "from 500,000"
+          },
+          {
+            "label": "Cups and stickers with your branding",
+            "price": "from 200,000"
+          },
+          {
+            "label": "Themed outfits for the Bubaristas",
+            "price": "from 200,000"
+          },
+          {
+            "label": "Photo and video of the service",
+            "price": "from 400,000"
+          },
+          {
+            "label": "Bubble tea workshop for guests",
+            "price": "from 500,000"
+          },
+          {
+            "label": "Delivery outside Canggu",
+            "price": "by distance"
+          }
+        ],
+        "note": "All prices in IDR. The final quote is confirmed in writing before the deposit."
+      }
+    },
+    "visit": {
+      "title": "Buba Tea Canggu — matcha, bubble tea, hours and directions",
+      "description": "Find Buba Tea on Jl. Raya Semat in Canggu: a full matcha menu, bubble tea and coffee, open daily from 08:00. Address, opening hours and one-tap directions.",
+      "h1": "Visit us in Canggu",
+      "lead": "Walk in any day of the week. If you are in a hurry, message us on WhatsApp and we will have it ready.",
+      "matcha": {
+        "title": "Come for the matcha",
+        "lead": "A whole menu of it, not one token latte on the board — hot, iced, with fruit, or as gelato.",
+        "linkLabel": "See the full menu"
+      },
+      "hoursTitle": "Opening hours",
+      "addressTitle": "Address",
+      "gettingHere": {
+        "title": "Getting here",
+        "items": [
+          {
+            "title": "By scooter",
+            "text": "There is scooter parking at the cafe. We are on Jl. Raya Semat in Tibubeneng, a short ride from Berawa and Pererenan."
+          },
+          {
+            "title": "By car",
+            "text": "Set the route in Google Maps — the button above drops you straight into navigation."
+          },
+          {
+            "title": "Look for",
+            "text": "The Buba Tea sign on Jl. Raya Semat, house number 7."
+          }
+        ]
+      },
+      "workFriendly": {
+        "title": "Working from here",
+        "text": "We have Wi-Fi and sockets, so a drink easily turns into a couple of hours of work."
+      }
+    },
+    "privacy": {
+      "title": "Privacy policy — Buba Tea",
+      "description": "How Buba Tea collects and uses data on this website.",
+      "h1": "Privacy policy",
+      "updated": "Last updated: {date}",
+      "sections": [
+        {
+          "title": "Who we are",
+          "text": "This website is run by {legalName}, based in Bali, Indonesia. You can reach us at {email}."
+        },
+        {
+          "title": "What we collect",
+          "text": "The website itself does not ask you to create an account. When you use the catering form, the details you enter are put into a WhatsApp message that you choose to send — we only receive them once you press send in WhatsApp. We also collect anonymous usage data (pages viewed, approximate region, device type, how you arrived) through Google Analytics and Google Ads."
+        },
+        {
+          "title": "Cookies and similar tools",
+          "text": "We use cookies for two things: measuring how the site is used, and measuring which ads bring people to us. You can accept or decline these when you first visit, and change your mind at any time using the link in the footer. Declining does not limit anything on the site."
+        },
+        {
+          "title": "Advertising",
+          "text": "We advertise through Google Ads. If you agree to advertising cookies, Google may show you our ads on other sites and tell us, in aggregate, how the campaign performed. We never receive your name or contact details this way."
+        },
+        {
+          "title": "How long we keep things",
+          "text": "Analytics data is kept for up to 14 months. WhatsApp conversations about catering are kept while we are arranging your event and for our accounting records afterwards."
+        },
+        {
+          "title": "Your choices",
+          "text": "You can ask us what we hold about you, ask us to delete it, or withdraw your consent to cookies. Write to {email} and we will reply within 30 days."
+        },
+        {
+          "title": "Changes",
+          "text": "If we change this policy we will update the date at the top of this page."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of use — Buba Tea",
+      "description": "Terms for using the Buba Tea website.",
+      "h1": "Terms of use",
+      "updated": "Last updated: {date}",
+      "sections": [
+        {
+          "title": "About these terms",
+          "text": "This website is provided by {legalName} to show our menu, opening hours and services. By using it, you accept what is written here."
+        },
+        {
+          "title": "Menu and prices",
+          "text": "The menu is synced from our till, so it reflects what we serve today. Even so, items can sell out and prices can change without notice. The price at the counter or in the delivery app is the one that applies."
+        },
+        {
+          "title": "Orders and delivery",
+          "text": "Delivery orders placed through GoFood or GrabFood are governed by those services' own terms. Orders arranged over WhatsApp are confirmed once we reply and agree the details with you."
+        },
+        {
+          "title": "Catering bookings",
+          "text": "A catering request is not a booking. A date is held once we have sent you a quote, you have accepted it, and the deposit has been paid. Cancellation terms are set out in the quote."
+        },
+        {
+          "title": "Content on this site",
+          "text": "The Buba Tea name, logo, photographs and text belong to us. Please do not reuse them commercially without asking."
+        },
+        {
+          "title": "Links to other sites",
+          "text": "We link to GoFood, GrabFood, Google Maps and social networks. We are not responsible for what happens on those sites."
+        },
+        {
+          "title": "Getting in touch",
+          "text": "Questions about these terms go to {email}."
+        }
+      ]
+    },
+    "notFound": {
+      "title": "Page not found — Buba Tea",
+      "description": "This page does not exist.",
+      "h1": "This page does not exist",
+      "lead": "The link may be old, or we may have moved something. Try the menu instead.",
+      "cta": "Go to the menu"
+    }
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "We use cookies to see how the site is used and which ads work. You can say no — nothing on the site stops working.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie settings",
+    "more": "Read the privacy policy"
+  }
+}

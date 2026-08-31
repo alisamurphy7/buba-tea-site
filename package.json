@@ -1,0 +1,22 @@
+{
+  "name": "buba-tea-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Сайт Buba Tea (Бали) — посадочные страницы под Google Ads. Без зависимостей: нужен только Node 18+.",
+  "scripts": {
+    "sync": "node scripts/sync-menu.mjs",
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "update": "node scripts/sync-menu.mjs && node build.mjs && node scripts/check.mjs",
+    "watch": "node scripts/watch-poster.mjs",
+    "dns": "node scripts/setup-dns.mjs",
+    "deploy": "node build.mjs && wrangler pages deploy dist --project-name=buba-tea --branch=main --commit-dirty=true",
+    "auto-sync": "node scripts/auto-sync.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

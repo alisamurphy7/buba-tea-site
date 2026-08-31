@@ -1,0 +1,122 @@
+{
+  "_комментарий": "ЕДИНСТВЕННЫЙ файл, который правишь руками. Всё, что помечено TODO, нужно заполнить — сборка предупредит, если что-то осталось. Меню сюда не пишем: оно тянется из Poster (npm run sync).",
+  "brand": {
+    "name": "Buba Tea",
+    "legalName": "PT Buba Tea Indonesia",
+    "domain": "bubateabali.com",
+    "founded": "2024"
+  },
+  "contacts": {
+    "whatsapp": "6281234567890",
+    "phone": "+62 812 3456 7890",
+    "email": "hello@bubatea.id"
+  },
+  "social": {
+    "instagram": "https://instagram.com/bubatea",
+    "tiktok": "https://tiktok.com/@bubatea",
+    "googleMapsProfile": "https://maps.google.com/?cid=0"
+  },
+  "locations": [
+    {
+      "id": "main",
+      "name": "Buba Tea Canggu",
+      "address": "Jl. Pantai Berawa No.88, Canggu, Badung, Bali 80361, Indonesia",
+      "mapsUrl": "https://maps.app.goo.gl/example",
+      "mapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Buba+Tea+Canggu",
+      "geo": {
+        "lat": -8.6595,
+        "lng": 115.1389
+      },
+      "hours": {
+        "_todo": "24-часовой формат. Если точка закрыта в какой-то день — поставь null",
+        "mon": [
+          "08:00",
+          "22:00"
+        ],
+        "tue": [
+          "08:00",
+          "22:00"
+        ],
+        "wed": [
+          "08:00",
+          "22:00"
+        ],
+        "thu": [
+          "08:00",
+          "22:00"
+        ],
+        "fri": [
+          "08:00",
+          "23:00"
+        ],
+        "sat": [
+          "08:00",
+          "23:00"
+        ],
+        "sun": [
+          "08:00",
+          "22:00"
+        ]
+      }
+    }
+  ],
+  "delivery": {
+    "enabled": true,
+    "gofood": "https://gofood.co.id/bali/restaurant/buba-tea",
+    "grabfood": "https://food.grab.com/id/id/restaurant/buba-tea",
+    "ownDeliveryWhatsapp": true,
+    "radiusNote": "Доставляем по Чангу, Берава и Переренану"
+  },
+  "catering": {
+    "enabled": true,
+    "minGuests": 20,
+    "priceFromIdr": "5000000",
+    "leadTimeDays": 3,
+    "formats": [
+      "wedding",
+      "birthday",
+      "corporate",
+      "villa",
+      "photoshoot"
+    ]
+  },
+  "featured": {
+    "_комментарий": "Названия строго как в Poster. Если позицию убрали из Poster — она просто пропадёт с сайта, ничего не сломается.",
+    "signature": [
+      "Matcha Cloud",
+      "Strawberry Matcha",
+      "Boba Cream Coffee",
+      "Rosella-Lychee Oolong Tea",
+      "Tie Guan Yin Oolong Tea",
+      "Burnt Cheesecake"
+    ],
+    "travelsWell": [
+      "Matcha Latte",
+      "Berries Oolong Tea",
+      "Americano",
+      "Almond Croissant"
+    ]
+  },
+  "analytics": {
+    "_комментарий": "Заполнить после создания аккаунтов. Пока пусто — скрипты не подключаются, сайт работает.",
+    "ga4MeasurementId": "",
+    "googleAdsId": "",
+    "conversionLabels": {
+      "whatsapp": "",
+      "directions": "",
+      "delivery": "",
+      "cateringLead": "",
+      "call": ""
+    },
+    "googleSiteVerification": ""
+  },
+  "seo": {
+    "defaultOgImage": "photos/hall.webp",
+    "geoKeywords": [
+      "Canggu",
+      "Berawa",
+      "Pererenan",
+      "Bali"
+    ]
+  }
+}

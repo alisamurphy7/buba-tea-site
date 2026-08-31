@@ -1,0 +1,142 @@
+{
+  "_комментарий": "ЕДИНСТВЕННЫЙ файл, который правишь руками. Всё, что помечено TODO, нужно заполнить — сборка предупредит, если что-то осталось. Меню сюда не пишем: оно тянется из Poster (npm run sync).",
+  "site": {
+    "_комментарий": "Какие языки собираются. Сейчас только английский — доводим его. Когда тексты утвердим, добавляем сюда \"ru\" и \"id\", и переводы включаются обратно: страницы, переключатель языков и hreflang появятся сами.",
+    "languages": [
+      "en"
+    ]
+  },
+  "brand": {
+    "name": "Buba Tea",
+    "legalName": "PT BUBA GLOBAL VENTURE",
+    "domain": "bubateabali.com",
+    "founded": "2024"
+  },
+  "contacts": {
+    "whatsapp": "6282247625407",
+    "phone": "+62 822 4762 5407",
+    "email": "bubateaglobal@gmail.com"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/buba_tea_bali",
+    "tiktok": "https://www.tiktok.com/@buba_tea_bali",
+    "googleMapsProfile": "https://maps.google.com/?cid=8665255919301445991"
+  },
+  "locations": [
+    {
+      "id": "main",
+      "name": "Buba Tea Canggu",
+      "address": "Jl. Raya Semat No.7, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80351",
+      "mapsUrl": "https://maps.google.com/?cid=8665255919301445991",
+      "mapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=BUBA%20TEA%20-%20Healthy%20Boba%2C%20Premium%20Bubble%20Tea%2C%20Matcha%20%26%20Coffee%2C%20Canggu%2C%20Jl.%20Raya%20Semat%20No.7%2C%20Tibubeneng%2C%20Kec.%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080351",
+      "geo": {
+        "lat": -8.6522583,
+        "lng": 115.1434844,
+        "_todo": "ПРИБЛИЗИТЕЛЬНО — это середина улицы Raya Semat, не точка кафе. Точные: правый клик по метке в Google Maps → скопировать координаты"
+      },
+      "hours": {
+        "_todo": "24-часовой формат. Если точка закрыта в какой-то день — поставь null",
+        "mon": [
+          "08:00",
+          "22:00"
+        ],
+        "tue": [
+          "08:00",
+          "22:00"
+        ],
+        "wed": [
+          "08:00",
+          "22:00"
+        ],
+        "thu": [
+          "08:00",
+          "22:00"
+        ],
+        "fri": [
+          "08:00",
+          "23:00"
+        ],
+        "sat": [
+          "08:00",
+          "23:00"
+        ],
+        "sun": [
+          "08:00",
+          "22:00"
+        ]
+      }
+    }
+  ],
+  "delivery": {
+    "enabled": true,
+    "gofood": "https://gofood.link/a/Mepkwuy",
+    "grabfood": "https://food.grab.com/id/en/restaurant/online-delivery/6-C6WHE6BXSGBXJ2",
+    "radiusNote": "We deliver as far as GoFood and GrabFood reach — the app tells you if you are in range.",
+    "milks": [
+      "Oat",
+      "Coconut",
+      "Soy"
+    ]
+  },
+  "catering": {
+    "enabled": true,
+    "_комментарий": "Минимум считается в НАПИТКАХ, не в гостях. Минимальный бюджет решено не публиковать.",
+    "minDrinks": 50,
+    "leadTimeDays": 3,
+    "prepaymentPercent": 50,
+    "formats": [
+      "wedding",
+      "birthday",
+      "corporate",
+      "villa",
+      "photoshoot"
+    ]
+  },
+  "featured": {
+    "_комментарий": "Названия строго как в Poster. Если позицию убрали из Poster — она просто пропадёт с сайта, ничего не сломается.",
+    "signature": [
+      "Matcha Cloud",
+      "Strawberry Matcha",
+      "Boba Cream Coffee",
+      "Rosella-Lychee Oolong Tea",
+      "Tie Guan Yin Oolong Tea",
+      "Peach Cloud"
+    ],
+    "travelsWell": [
+      "Matcha Latte",
+      "Berries Oolong Tea",
+      "Americano",
+      "Cinnamon Roll"
+    ],
+    "explorer": {
+      "_комментарий": "Интерактивный блок напитков на главной. Категории берутся из Poster; здесь только то, что в нём НЕ показываем, и сколько позиций в каждой вкладке. Имена должны совпадать с Poster ТОЧНО.",
+      "exclude": [
+        "Food",
+        "Gelato"
+      ],
+      "perCategory": 8
+    }
+  },
+  "analytics": {
+    "_комментарий": "Заполнить после создания аккаунтов. Пока пусто — скрипты не подключаются, сайт работает.",
+    "ga4MeasurementId": "G-3L1BE7QN2S",
+    "googleAdsId": "",
+    "conversionLabels": {
+      "whatsapp": "",
+      "directions": "",
+      "delivery": "",
+      "cateringLead": "",
+      "call": ""
+    },
+    "googleSiteVerification": ""
+  },
+  "seo": {
+    "defaultOgImage": "photos/hall.webp",
+    "geoKeywords": [
+      "Canggu",
+      "Berawa",
+      "Pererenan",
+      "Bali"
+    ]
+  }
+}
