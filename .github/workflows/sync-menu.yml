@@ -33,9 +33,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
       # npm install не нужен: у сайта нет зависимостей, только Node.
@@ -48,15 +48,24 @@ jobs:
 
       # Дальше работаем, только если меню правда изменилось: каждая выкладка
       # создаёт новую версию в Cloudflare и сбрасывает кэш у посетителей.
+      # Внимание: sync-menu.mjs пишет в menu.json поле syncedAt — время запуска.
+      # Оно меняется ВСЕГДА, поэтому обычного `git diff` тут мало: он считал бы
+      # изменением каждый прогон, и сайт выкладывался бы раз в два часа впустую.
+      # Поэтому смотрим на изменившиеся строки, отбросив syncedAt.
       - name: Проверить, изменилось ли меню
         id: changed
         run: |
-          if git diff --quiet -- content/menu.json; then
+          real=$(git diff -U0 -- content/menu.json \
+                 | grep '^[+-][^+-]' \
+                 | grep -v '"syncedAt"' || true)
+          if [ -z "$real" ]; then
             echo "result=no" >> "$GITHUB_OUTPUT"
             echo "Меню не менялось — собирать и выкладывать нечего."
+            # Возвращаем файл как был, чтобы не коммитить одну лишь метку времени.
+            git checkout -- content/menu.json
           else
             echo "result=yes" >> "$GITHUB_OUTPUT"
-            git --no-pager diff --stat -- content/menu.json
+            echo "$real"
           fi
 
       - name: Собрать сайт
