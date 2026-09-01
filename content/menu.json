@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T16:03:21.391Z",
+  "syncedAt": "2026-09-01T11:27:50.432Z",
   "currency": "IDR",
   "categories": [
     {
@@ -333,42 +333,42 @@
           "sortOrder": 999,
           "name": "Bounty Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190655_291.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239892_291.jpeg"
         },
         {
           "id": "231",
           "sortOrder": 999,
           "name": "Dark Chocolate Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190698_231.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239914_231.jpeg"
         },
         {
           "id": "299",
           "sortOrder": 999,
           "name": "Mango Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190717_299.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239938_299.jpeg"
         },
         {
           "id": "265",
           "sortOrder": 999,
           "name": "Matcha Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190732_265.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239955_265.jpeg"
         },
         {
           "id": "232",
           "sortOrder": 999,
           "name": "Mint-Chocolate Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190751_232.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240017_232.jpeg"
         },
         {
           "id": "230",
           "sortOrder": 999,
           "name": "Passion Fruit Gelato",
           "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788086996_230.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240035_230.jpeg"
         },
         {
           "id": "233",
@@ -436,14 +436,14 @@
           "sortOrder": 999,
           "name": "Salmon Poke Bowl",
           "price": 129000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788191112_329.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240380_329.jpeg"
         },
         {
           "id": "332",
           "sortOrder": 999,
           "name": "Tuna Poke Bowl",
           "price": 109000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788191144_332.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240409_332.jpeg"
         }
       ]
     }
