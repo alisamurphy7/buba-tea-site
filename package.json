@@ -13,8 +13,9 @@
     "update": "node scripts/sync-menu.mjs && node build.mjs && node scripts/check.mjs",
     "watch": "node scripts/watch-poster.mjs",
     "dns": "node scripts/setup-dns.mjs",
-    "deploy": "node build.mjs && wrangler pages deploy dist --project-name=buba-tea --branch=main --commit-dirty=true",
-    "auto-sync": "node scripts/auto-sync.mjs"
+    "deploy": "node scripts/sync-menu.mjs && node build.mjs && node scripts/check.mjs && wrangler pages deploy dist --project-name=buba-tea --branch=main --commit-dirty=true",
+    "auto-sync": "node scripts/auto-sync.mjs",
+    "deploy-bez-sinhronizacii": "node build.mjs && wrangler pages deploy dist --project-name=buba-tea --branch=main --commit-dirty=true"
   },
   "engines": {
     "node": ">=18"
