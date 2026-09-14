@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T11:27:50.432Z",
+  "syncedAt": "2026-09-14T04:20:26.550Z",
   "currency": "IDR",
   "categories": [
     {
@@ -410,13 +410,6 @@
           "name": "Plain Croissant",
           "price": 40000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787922526_248.png"
-        },
-        {
-          "id": "257",
-          "sortOrder": 999,
-          "name": "Swiss Roll",
-          "price": 60000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189745_257.jpeg"
         }
       ]
     },
