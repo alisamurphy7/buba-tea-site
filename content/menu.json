@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-14T04:20:26.550Z",
+  "syncedAt": "2026-09-15T11:30:13.038Z",
   "currency": "IDR",
   "categories": [
     {
@@ -33,6 +33,13 @@
           "name": "Peach Cloud",
           "price": 119000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190111_306.jpeg"
+        },
+        {
+          "id": "337",
+          "sortOrder": 999,
+          "name": "The Matcha Addict Set",
+          "price": 169000,
+          "photo": null
         }
       ]
     },
