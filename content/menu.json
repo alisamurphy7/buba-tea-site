@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T11:30:13.038Z",
+  "syncedAt": "2026-09-16T13:20:49.090Z",
   "currency": "IDR",
   "categories": [
     {
@@ -425,6 +425,13 @@
       "name": "Poke and Bowls",
       "items": [
         {
+          "id": "338",
+          "sortOrder": 999,
+          "name": "Mango Strawberry Protein Smoothie Bowl",
+          "price": 129000,
+          "photo": null
+        },
+        {
           "id": "315",
           "sortOrder": 999,
           "name": "Onigiri",
@@ -437,6 +444,13 @@
           "name": "Salmon Poke Bowl",
           "price": 129000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240380_329.jpeg"
+        },
+        {
+          "id": "339",
+          "sortOrder": 999,
+          "name": "Sneakers Protein Smoothie Bowl",
+          "price": 129000,
+          "photo": null
         },
         {
           "id": "332",
