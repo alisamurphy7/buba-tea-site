@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-16T13:20:49.090Z",
+  "syncedAt": "2026-09-18T07:16:39.174Z",
   "currency": "IDR",
   "categories": [
     {
@@ -50,21 +50,21 @@
         {
           "id": "319",
           "sortOrder": 999,
-          "name": "Blueberry Matcha",
+          "name": "Blueberry Matcha Latte",
           "price": 79000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190202_319.jpeg"
         },
         {
-          "id": "246",
+          "id": "13",
           "sortOrder": 999,
-          "name": "Bumble Matcha",
-          "price": 69000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190520_246.jpeg"
+          "name": "Citrus Honey Matcha",
+          "price": 65000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190482_13.jpeg"
         },
         {
           "id": "247",
           "sortOrder": 999,
-          "name": "Mango Matcha",
+          "name": "Mango Matcha Latte",
           "price": 79000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190408_247.jpeg"
         },
@@ -83,16 +83,16 @@
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190462_22.jpeg"
         },
         {
-          "id": "13",
+          "id": "246",
           "sortOrder": 999,
-          "name": "Matcha Lemon Jasmine Tea",
-          "price": 65000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190482_13.jpeg"
+          "name": "Matcha Orange",
+          "price": 69000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190520_246.jpeg"
         },
         {
           "id": "141",
           "sortOrder": 999,
-          "name": "Strawberry Matcha",
+          "name": "Strawberry Matcha Latte",
           "price": 79000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788190552_141.jpeg"
         }
@@ -429,7 +429,7 @@
           "sortOrder": 999,
           "name": "Mango Strawberry Protein Smoothie Bowl",
           "price": 129000,
-          "photo": null
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789713440_338.jpeg"
         },
         {
           "id": "315",
@@ -450,7 +450,7 @@
           "sortOrder": 999,
           "name": "Sneakers Protein Smoothie Bowl",
           "price": 129000,
-          "photo": null
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789713457_339.jpeg"
         },
         {
           "id": "332",
