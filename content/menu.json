@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-18T12:51:34.672Z",
+  "syncedAt": "2026-09-24T11:29:40.002Z",
   "currency": "IDR",
   "categories": [
     {
@@ -442,7 +442,7 @@
           "id": "329",
           "sortOrder": 999,
           "name": "Salmon Poke Bowl",
-          "price": 129000,
+          "price": 149000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789717849_329.jpeg"
         },
         {
@@ -456,7 +456,7 @@
           "id": "332",
           "sortOrder": 999,
           "name": "Tuna Poke Bowl",
-          "price": 109000,
+          "price": 139000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789717869_332.jpeg"
         }
       ]
