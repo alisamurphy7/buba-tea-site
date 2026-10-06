@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T13:09:07.235Z",
+  "syncedAt": "2026-10-06T19:23:15.352Z",
   "currency": "IDR",
   "categories": [
     {
@@ -186,6 +186,13 @@
       "name": "Pure tea",
       "items": [
         {
+          "id": "341",
+          "sortOrder": 999,
+          "name": "Chamomile Tea",
+          "price": 55000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791296437_341.png"
+        },
+        {
           "id": "331",
           "sortOrder": 999,
           "name": "Da Hong Pao Tea",
@@ -197,7 +204,7 @@
           "sortOrder": 999,
           "name": "Jasmine Green Tea",
           "price": 55000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788184171_101.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791296473_101.png"
         },
         {
           "id": "106",
@@ -211,7 +218,7 @@
           "sortOrder": 999,
           "name": "Tie Guan Yin Oolong Tea",
           "price": 55000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788184225_105.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791296457_105.png"
         }
       ]
     },
@@ -429,7 +436,7 @@
           "sortOrder": 999,
           "name": "Salmon Poke Bowl",
           "price": 149000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789717849_329.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791294767_329.png"
         },
         {
           "id": "339",
@@ -443,7 +450,7 @@
           "sortOrder": 999,
           "name": "Tuna Poke Bowl",
           "price": 139000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1789717869_332.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791294790_332.png"
         }
       ]
     }
