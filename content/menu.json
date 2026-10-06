@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T05:53:46.626Z",
+  "syncedAt": "2026-10-06T13:09:07.235Z",
   "currency": "IDR",
   "categories": [
     {
@@ -128,7 +128,7 @@
           "sortOrder": 999,
           "name": "Cappuccino",
           "price": 47000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189910_242.jpeg"
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1791268280_242.jpeg"
         },
         {
           "id": "243",
@@ -159,6 +159,13 @@
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787147278_288.png"
         },
         {
+          "id": "340",
+          "sortOrder": 999,
+          "name": "Flat White",
+          "price": 49000,
+          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189910_242.jpeg"
+        },
+        {
           "id": "205",
           "sortOrder": 999,
           "name": "Peanut Butter Latte",
@@ -179,25 +186,11 @@
       "name": "Pure tea",
       "items": [
         {
-          "id": "330",
-          "sortOrder": 999,
-          "name": "Ceylon Black Tea",
-          "price": 55000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788184088_330.jpeg"
-        },
-        {
           "id": "331",
           "sortOrder": 999,
           "name": "Da Hong Pao Tea",
           "price": 55000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788184103_331.jpeg"
-        },
-        {
-          "id": "334",
-          "sortOrder": 999,
-          "name": "Dark Roasted Oolong Tea",
-          "price": 55000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788184125_334.jpeg"
         },
         {
           "id": "101",
@@ -234,24 +227,17 @@
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1787145182_19.png"
         },
         {
-          "id": "278",
-          "sortOrder": 999,
-          "name": "Ceylon Boba Milk Tea",
-          "price": 59000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788087518_278.png"
-        },
-        {
           "id": "279",
           "sortOrder": 999,
           "name": "Dark Roasted Oolong Boba Milk Tea",
-          "price": 59000,
+          "price": 79000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788088302_279.png"
         },
         {
           "id": "280",
           "sortOrder": 999,
           "name": "Jasmine Boba Milk Tea",
-          "price": 59000,
+          "price": 79000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788088334_280.png"
         },
         {
