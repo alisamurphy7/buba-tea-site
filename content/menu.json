@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-24T11:29:40.002Z",
+  "syncedAt": "2026-10-06T05:53:46.626Z",
   "currency": "IDR",
   "categories": [
     {
@@ -106,7 +106,7 @@
           "id": "240",
           "sortOrder": 999,
           "name": "Americano",
-          "price": 49000,
+          "price": 37000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189881_240.jpeg"
         },
         {
@@ -127,7 +127,7 @@
           "id": "242",
           "sortOrder": 999,
           "name": "Cappuccino",
-          "price": 59000,
+          "price": 47000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189910_242.jpeg"
         },
         {
@@ -141,14 +141,14 @@
           "id": "241",
           "sortOrder": 999,
           "name": "Coffee Latte",
-          "price": 59000,
+          "price": 47000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189896_241.jpeg"
         },
         {
           "id": "239",
           "sortOrder": 999,
           "name": "Espresso",
-          "price": 49000,
+          "price": 37000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788189866_239.jpeg"
         },
         {
