@@ -3,19 +3,42 @@
 # Заменяет локальный LaunchAgent: раньше это делал Mac, и пока он спал,
 # сайт стоял на старом меню. Здесь запуск не зависит ни от чьего компьютера.
 #
-# Расписание — раз в два часа. Часовой пояс не важен: запуск в начале чётного часа.
-# GitHub не гарантирует минуту в минуту — при высокой нагрузке прогон может
-# сдвинуться на несколько минут, а иногда и пропуститься. Для меню это не страшно.
+# ТРИ ПОВОДА ЗАПУСТИТЬСЯ, и ведут они себя по-разному:
 #
-# Раз в два часа, а не каждый час, ради лимита Actions: на приватном репозитории
-# бесплатно 2000 минут в месяц, а каждый прогон тарифицируется минимум как минута.
-# Ежечасно вышло бы ~720 минут, здесь ~360 — остаётся запас на другие проекты.
+#   push    — изменился исходник сайта. Выкладываем всегда: раз человек
+#             запушил правку вёрстки или текста, он хочет видеть её на сайте.
+#   schedule— раз в два часа, проверить меню. Выкладываем ТОЛЬКО если меню
+#             правда изменилось, иначе каждые два часа впустую сбрасывали бы
+#             кэш у посетителей.
+#   вручную — кнопка Run workflow. Выкладываем всегда: нажали — значит надо.
 #
-# Запустить руками: вкладка Actions → «Меню из Poster» → Run workflow.
+# Расписание: раз в два часа, а не каждый час, ради лимита Actions — на
+# приватном репозитории бесплатно 2000 минут в месяц, а каждый прогон
+# тарифицируется минимум как минута. Ежечасно вышло бы ~720 минут, здесь ~360.
+# Часовой пояс не важен. GitHub не гарантирует минуту в минуту: при высокой
+# нагрузке прогон может сдвинуться, а иногда и пропуститься. Для меню не страшно.
+#
+# ПОЧЕМУ В paths НЕТ content/menu.json — это не недосмотр. Последним шагом
+# задача сама коммитит обновлённое меню. Если бы menu.json был в paths, этот
+# коммит запускал бы новый прогон, тот снова коммитил бы метку времени, и так
+# по кругу. Поэтому меню перечислено по файлам, а menu.json намеренно опущен.
+#
+# Запустить руками: вкладка Actions → «Сайт: меню и выкладка» → Run workflow.
 
-name: Меню из Poster
+name: "Сайт: меню и выкладка"
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'content/i18n/**'
+      - 'content/business.json'
+      - 'content/reviews.json'
+      - 'build.mjs'
+      - 'package.json'
+      - '.github/workflows/sync-menu.yml'
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch:
@@ -40,51 +63,66 @@ jobs:
           node-version: '20'
       # npm install не нужен: у сайта нет зависимостей, только Node.
 
+      # Меню тянем при любом поводе, в том числе при push: иначе выложили бы
+      # свежую вёрстку со старым меню из репозитория.
       - name: Забрать меню из кассы
         env:
           POSTER_TOKEN: ${{ secrets.POSTER_TOKEN }}
           POSTER_ACCOUNT_ID: ${{ secrets.POSTER_ACCOUNT_ID }}
         run: npm run sync
 
-      # Дальше работаем, только если меню правда изменилось: каждая выкладка
-      # создаёт новую версию в Cloudflare и сбрасывает кэш у посетителей.
+      # Два РАЗНЫХ решения, их легко перепутать:
+      #   menu   — изменилось ли меню. От него зависит, коммитить ли файл.
+      #   deploy — собирать и выкладывать ли вообще.
+      #
       # Внимание: sync-menu.mjs пишет в menu.json поле syncedAt — время запуска.
-      # Оно меняется ВСЕГДА, поэтому обычного `git diff` тут мало: он считал бы
-      # изменением каждый прогон, и сайт выкладывался бы раз в два часа впустую.
-      # Поэтому смотрим на изменившиеся строки, отбросив syncedAt.
-      - name: Проверить, изменилось ли меню
-        id: changed
+      # Оно меняется ВСЕГДА, поэтому обычного `git diff` мало: он считал бы
+      # изменением каждый прогон. Поэтому смотрим на изменившиеся строки,
+      # отбросив syncedAt.
+      - name: Решить, что делать
+        id: plan
         run: |
           real=$(git diff -U0 -- content/menu.json \
                  | grep '^[+-][^+-]' \
                  | grep -v '"syncedAt"' || true)
-          if [ -z "$real" ]; then
-            echo "result=no" >> "$GITHUB_OUTPUT"
-            echo "Меню не менялось — собирать и выкладывать нечего."
+          if [ -n "$real" ]; then
+            echo "menu=yes" >> "$GITHUB_OUTPUT"
+            echo "Меню изменилось:"
+            echo "$real"
+          else
+            echo "menu=no" >> "$GITHUB_OUTPUT"
+            echo "Меню не менялось."
             # Возвращаем файл как был, чтобы не коммитить одну лишь метку времени.
             git checkout -- content/menu.json
+          fi
+
+          if [ -n "$real" ] || [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "deploy=yes" >> "$GITHUB_OUTPUT"
+            echo "Выкладываем."
           else
-            echo "result=yes" >> "$GITHUB_OUTPUT"
-            echo "$real"
+            echo "deploy=no" >> "$GITHUB_OUTPUT"
+            echo "Выкладывать нечего: по расписанию и без изменений меню."
           fi
 
       - name: Собрать сайт
-        if: steps.changed.outputs.result == 'yes'
+        if: steps.plan.outputs.deploy == 'yes'
         run: npm run build
 
       - name: Проверить сборку
-        if: steps.changed.outputs.result == 'yes'
+        if: steps.plan.outputs.deploy == 'yes'
         run: npm run check
 
       - name: Выложить в Cloudflare Pages
-        if: steps.changed.outputs.result == 'yes'
+        if: steps.plan.outputs.deploy == 'yes'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npx --yes wrangler@4 pages deploy dist --project-name=buba-tea --branch=main --commit-dirty=true
 
+      # Коммитим только когда меню правда новое. На push с правкой вёрстки
+      # коммитить нечего — menu.json мы уже вернули как был.
       - name: Сохранить новое меню в репозиторий
-        if: steps.changed.outputs.result == 'yes'
+        if: steps.plan.outputs.menu == 'yes'
         run: |
           git config user.name  "buba-tea-bot"
           git config user.email "bot@bubateabali.com"
