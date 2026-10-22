@@ -17,6 +17,23 @@ const matchaItems = (menu) =>
     .filter((i) => /matcha/i.test(i.name))
     .slice(0, 9)
 
+/**
+ * Еду берём тем же способом — из кассы, а не списком в коде. Но ловим не по
+ * названию позиции, а по КАТЕГОРИИ: у «Plain Croissant» и «Onigiri» нет общего
+ * слова, по которому их можно было бы выбрать, а категории «Poke and Bowls» и
+ * «Bakery» в Poster заведены именно под это.
+ *
+ * Зачем блок вообще. Performance Max решает, по каким запросам нас показывать,
+ * во многом по посадочной странице. Пока здесь были только адрес, часы и матча,
+ * Google считал нас заведением с напитками и по breakfast/brunch не показывал
+ * вовсе — хотя темы с этими словами в кампании стоят. См. scripts/reklama_teksty.py.
+ */
+const foodItems = (menu) =>
+  (menu?.categories ?? [])
+    .filter((c) => /poke|bowls|bakery/i.test(c.name))
+    .flatMap((c) => c.items)
+    .slice(0, 9)
+
 export default function visit({ t, business, menu, lang, origin }) {
   const p = t.pages.visit
   const location = business.locations[0]
@@ -32,6 +49,7 @@ export default function visit({ t, business, menu, lang, origin }) {
   // заголовком — тогда показываем только часы работы, во всю ширину.
   const hasContactColumn = Boolean(address || directions || wa || phone)
   const matcha = matchaItems(menu)
+  const food = foodItems(menu)
 
   const contactColumn = join(
     `<div>`,
@@ -80,6 +98,23 @@ export default function visit({ t, business, menu, lang, origin }) {
         matcha.map((i) => `<li class="chip">${esc(i.name)}</li>`).join(''),
         `</ul>`,
         `<p><a class="plain" href="${esc(url(lang, 'menu'))}">${esc(p.matcha.linkLabel)}</a></p>`,
+        `</div>`,
+        `</section>`,
+      ),
+
+    // Завтраки и еда. Блок необязательный: если в кассе не осталось ни поке,
+    // ни выпечки, он просто не рисуется — как и блок про матчу.
+    p.food &&
+      food.length &&
+      join(
+        `<section class="section">`,
+        `<div class="wrap narrow">`,
+        `<h2>${esc(p.food.title)}</h2>`,
+        `<p class="lead">${esc(p.food.lead)}</p>`,
+        `<ul class="chips">`,
+        food.map((i) => `<li class="chip">${esc(i.name)}</li>`).join(''),
+        `</ul>`,
+        `<p><a class="plain" href="${esc(url(lang, 'menu'))}">${esc(p.food.linkLabel)}</a></p>`,
         `</div>`,
         `</section>`,
       ),
