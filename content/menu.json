@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-28T12:32:39.787Z",
+  "syncedAt": "2026-11-11T17:48:52.476Z",
   "currency": "IDR",
   "categories": [
     {
@@ -336,13 +336,6 @@
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239892_291.jpeg"
         },
         {
-          "id": "231",
-          "sortOrder": 999,
-          "name": "Dark Chocolate Gelato",
-          "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788239914_231.jpeg"
-        },
-        {
           "id": "299",
           "sortOrder": 999,
           "name": "Mango Gelato",
@@ -362,13 +355,6 @@
           "name": "Mint-Chocolate Gelato",
           "price": 49000,
           "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240017_232.jpeg"
-        },
-        {
-          "id": "230",
-          "sortOrder": 999,
-          "name": "Passion Fruit Gelato",
-          "price": 49000,
-          "photo": "https://joinposter.com/upload/pos_cdb_394807/menu/product_1788240035_230.jpeg"
         },
         {
           "id": "233",
