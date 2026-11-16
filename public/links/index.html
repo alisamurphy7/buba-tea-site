@@ -99,11 +99,9 @@ h2 {
 .link-primary { background: var(--matcha); border-color: var(--matcha); }
 .link-primary:hover { background: #9fc75c; border-color: #9fc75c; color: var(--black); }
 /* Icon pinned left so the text is centred on the whole button */
-.link > svg, .link > .badge { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); }
+.link > svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); }
 .link svg { width: 26px; height: 26px; }
 .link-text { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; line-height: 1.25; }
-/* Short GoFood / Grab marks in the brand style: thin outline pill like the "tea" in the logo */
-.badge { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; height: 24px; padding: 0 7px; border: 1.8px solid currentColor; border-radius: 999px; font-family: var(--display); font-weight: 700; font-size: 0.72rem; line-height: 1; }
 .link small {
   font-family: var(--text);
   font-weight: 400;
@@ -137,22 +135,18 @@ h2 {
     <div class="stack">
       <!-- Canggu GoFood: page title "BUBA TEA - Healthy Boba and Premium Bubble Tea, Canggu" (same link as content/business.json) -->
       <a class="link link-primary" href="https://gofood.link/a/Mepkwuy" target="_blank" rel="noopener" data-track="delivery">
-        <span class="badge" aria-hidden="true">go</span>
         <span class="link-text">GoFood <small>Canggu</small></span>
       </a>
       <!-- Canggu GrabFood: same link as content/business.json -->
       <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C6WHE6BXSGBXJ2" target="_blank" rel="noopener" data-track="delivery">
-        <span class="badge" aria-hidden="true">grab</span>
         <span class="link-text">GrabFood <small>Canggu</small></span>
       </a>
       <!-- Ubud GoFood: page title "BUBA TEA - Healthy Boba & Premium Bubble Tea, Ubud" (Peliatan) -->
       <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery">
-        <span class="badge" aria-hidden="true">go</span>
         <span class="link-text">GoFood <small>Ubud</small></span>
       </a>
       <!-- Ubud GrabFood: merchant 6-C8KXEUCJA3V3LE from the Grab share link r.grab.com/g/2-1-6-C8KXEUCJA3V3LE -->
       <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery">
-        <span class="badge" aria-hidden="true">grab</span>
         <span class="link-text">GrabFood <small>Ubud</small></span>
       </a>
       <!-- Optional: our delivery page on the site
