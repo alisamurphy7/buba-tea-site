@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buba Tea Ubud — delivery</title>
+<meta name="description" content="Order Buba Tea Ubud delivery on GoFood or GrabFood: bubble tea and matcha delivered in Ubud.">
+<!-- Hidden landing page for the Ubud delivery TikTok ad: not in the site menu, not in sitemap.xml, not indexed. -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://bubateabali.com/ubud/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Buba Tea">
+<meta property="og:title" content="Buba Tea Ubud — delivery">
+<meta property="og:description" content="Bubble tea &amp; matcha delivered in Ubud. Order on GoFood or GrabFood.">
+<meta property="og:url" content="https://bubateabali.com/ubud/">
+<meta property="og:image" content="https://bubateabali.com/photos/hall.webp">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#8DB848">
+<link rel="preload" href="/fonts/comfortaa-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem('buba-consent')==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'})}}catch(e){}gtag('js',new Date());gtag('config','G-3L1BE7QN2S');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1BE7QN2S"></script>
+<script>window.BUBA={adsId:null,labels:{}};</script>
+<style>
+/* Same font, palette and button shape as src/styles.css, kept inline so this
+   one-column page does not inherit the site header/section layout. */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa-latin.woff2') format('woff2');
+  font-weight: 300 700;
+  font-display: swap;
+}
+:root {
+  --black: #000;
+  --white: #fff;
+  --light-gray: #f0f0f0;
+  --stone: #d8d3c9;
+  --matcha: #8db848;
+  --matcha-dark: #6f9433;
+  --ink: var(--black);
+  --ink-soft: #4a4a4a;
+  --display: 'Comfortaa', system-ui, sans-serif;
+  --text: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--light-gray);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.links {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 16px 40px;
+}
+.links-head { text-align: center; margin-bottom: 28px; }
+.links-logo { display: block; width: 240px; max-width: 80%; height: auto; margin: 0 auto 20px; }
+h1, h2, .link { font-family: var(--display); font-weight: 700; letter-spacing: -0.01em; }
+h1 { font-size: 1.35rem; line-height: 1.25; margin: 0 0 6px; }
+.tagline { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+/* Row of five cut-out drinks under the logo (photos from the main site) */
+.links-drinks { display: flex; justify-content: center; align-items: flex-end; max-width: 400px; margin: 0 auto 20px; }
+.links-drinks img { width: 22%; height: auto; margin: 0 -1.5%; }
+.group { margin: 0 0 24px; }
+h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--matcha-dark);
+  margin: 0 0 10px;
+  text-align: center;
+}
+.stack { display: grid; gap: 10px; }
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  padding: 10px 64px;
+  border: 2px solid var(--black);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--black);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.link:hover { background: var(--black); color: var(--white); }
+.link:active { transform: translateY(1px); }
+.link:focus-visible { outline: 3px solid var(--matcha-dark); outline-offset: 3px; }
+.link-primary { background: var(--matcha); border-color: var(--matcha); }
+.link-primary:hover { background: #9fc75c; border-color: #9fc75c; color: var(--black); }
+/* Icon pinned left so the text is centred on the whole button */
+.link > svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); }
+.link svg { width: 26px; height: 26px; }
+.link-text { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; line-height: 1.25; }
+.link small {
+  font-family: var(--text);
+  font-weight: 400;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+.links-foot {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.links-foot p { margin: 0 0 6px; }
+.links-foot a { color: inherit; }
+.links-foot .ig { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+.links-foot .ig svg { width: 18px; height: 18px; }
+@media (prefers-reduced-motion: reduce) {
+  .link { transition: none; }
+}
+</style>
+</head>
+<body>
+<main class="links">
+
+  <header class="links-head">
+    <img class="links-logo" src="/logo/logo_short_black.svg" alt="Buba Tea" width="240" height="64">
+    <div class="links-drinks">
+      <img src="/photos/drinks/cup-2@600.webp" alt="Bubble tea with tapioca pearls" width="196" height="399">
+      <img src="/photos/drinks/cup-3@600.webp" alt="Matcha mango" width="298" height="600">
+      <img src="/photos/drinks/cup-1@600.webp" alt="Grapefruit tea" width="286" height="600">
+      <img src="/photos/drinks/cup-4@600.webp" alt="Berry tea" width="195" height="399">
+      <img src="/photos/drinks/cup-5@600.webp" alt="Iced matcha" width="196" height="399">
+    </div>
+    <h1>Buba Tea Ubud — delivery</h1>
+    <p class="tagline">Bubble tea &amp; matcha delivered in Ubud</p>
+  </header>
+
+  <section class="group" aria-labelledby="g-order">
+    <h2 id="g-order">Order delivery</h2>
+    <div class="stack">
+      <!-- Ubud GoFood: same link as public/links/index.html (page title "BUBA TEA - Healthy Boba & Premium Bubble Tea, Ubud", Peliatan) -->
+      <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="gofood">
+        <span class="link-text">Order on GoFood <small>Ubud</small></span>
+      </a>
+      <!-- Ubud GrabFood: same link as public/links/index.html (merchant 6-C8KXEUCJA3V3LE) -->
+      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="grab">
+        <span class="link-text">Order on Grab <small>Ubud</small></span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="links-foot">
+    <p><a class="ig" href="https://www.instagram.com/buba_tea_bali" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.15" fill="currentColor" stroke="none"/></svg>@buba_tea_bali</a></p>
+    <p><a href="/">bubateabali.com</a></p>
+  </footer>
+
+</main>
+<script>
+/* Same click tracking as /links/ (GA4 event buba_delivery, plus the Google Ads
+   conversion once window.BUBA has an adsId and label), with extra params so this
+   page's clicks can be told apart: outlet=ubud, platform=gofood|grab, page=ubud.
+   /app.js is not loaded here, so each click is sent once. */
+(function () {
+  var cfg = window.BUBA || {}
+  document.addEventListener('click', function (event) {
+    var el = event.target.closest ? event.target.closest('[data-track]') : null
+    if (!el || typeof window.gtag !== 'function') return
+    var action = el.getAttribute('data-track')
+    window.gtag('event', 'buba_' + action, {
+      outlet: el.getAttribute('data-outlet') || '',
+      platform: el.getAttribute('data-platform') || '',
+      page: 'ubud',
+      transport_type: 'beacon'
+    })
+    var label = cfg.labels && cfg.labels[action]
+    if (cfg.adsId && label) window.gtag('event', 'conversion', { send_to: cfg.adsId + '/' + label })
+  })
+})()
+</script>
+</body>
+</html>
