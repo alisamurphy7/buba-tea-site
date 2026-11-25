@@ -119,6 +119,50 @@ h2 {
 }
 .links-foot p { margin: 0 0 6px; }
 .links-foot a { color: inherit; }
+/* Cookie banner: same markup, look and storage key ('buba-consent') as the
+   generated pages (src/styles.css .consent/.btn); /app.js shows it and saves the choice. */
+.consent {
+  position: fixed;
+  inset: auto 1rem 1rem;
+  z-index: 60;
+  background: var(--white);
+  border: 1px solid var(--stone);
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  padding: 1.25rem;
+  max-width: 640px;
+  margin-inline: auto;
+}
+.consent-inner { display: grid; gap: 1rem; }
+.consent p { font-size: 0.9375rem; color: var(--ink-soft); margin: 0.35rem 0 0; }
+.consent a { color: inherit; }
+.consent-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+@media (min-width: 640px) {
+  .consent-inner { grid-template-columns: 1fr auto; align-items: center; }
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.6rem;
+  min-height: 48px;
+  border: 2px solid var(--matcha);
+  border-radius: 999px;
+  background: var(--matcha);
+  color: var(--black);
+  font-family: var(--display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.btn:hover { background: #9fc75c; border-color: #9fc75c; }
+.btn:active { transform: translateY(1px); }
+.btn-ghost { background: transparent; border-color: var(--black); }
+.btn-ghost:hover { background: var(--black); border-color: var(--black); color: var(--white); }
 @media (prefers-reduced-motion: reduce) {
   .link { transition: none; }
 }
@@ -144,19 +188,19 @@ h2 {
     <h2 id="g-order">Order delivery</h2>
     <div class="stack">
       <!-- Canggu GoFood: page title "BUBA TEA - Healthy Boba and Premium Bubble Tea, Canggu" (same link as content/business.json) -->
-      <a class="link link-primary" href="https://gofood.link/a/Mepkwuy" target="_blank" rel="noopener" data-track="delivery">
+      <a class="link link-primary" href="https://gofood.link/a/Mepkwuy" target="_blank" rel="noopener" data-track="delivery" data-outlet="canggu" data-platform="gofood" data-page="links">
         <span class="link-text">GoFood <small>Canggu</small></span>
       </a>
       <!-- Canggu GrabFood: same link as content/business.json -->
-      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C6WHE6BXSGBXJ2" target="_blank" rel="noopener" data-track="delivery">
+      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C6WHE6BXSGBXJ2" target="_blank" rel="noopener" data-track="delivery" data-outlet="canggu" data-platform="grab" data-page="links">
         <span class="link-text">GrabFood <small>Canggu</small></span>
       </a>
       <!-- Ubud GoFood: page title "BUBA TEA - Healthy Boba & Premium Bubble Tea, Ubud" (Peliatan) -->
-      <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery">
+      <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="gofood" data-page="links">
         <span class="link-text">GoFood <small>Ubud</small></span>
       </a>
       <!-- Ubud GrabFood: merchant 6-C8KXEUCJA3V3LE from the Grab share link r.grab.com/g/2-1-6-C8KXEUCJA3V3LE -->
-      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery">
+      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="grab" data-page="links">
         <span class="link-text">GrabFood <small>Ubud</small></span>
       </a>
       <!-- Optional: our delivery page on the site
@@ -220,6 +264,7 @@ h2 {
   </footer>
 
 </main>
+<div class="consent" id="consent" hidden role="dialog" aria-modal="false" aria-labelledby="consent-title"><div class="consent-inner"><div><strong id="consent-title">Cookies</strong><p>We use cookies to see how the site is used and which ads work. You can say no — nothing on the site stops working. <a href="/privacy/">Read the privacy policy</a></p></div><div class="consent-actions"><button type="button" class="btn btn-ghost" data-consent="denied">Decline</button><button type="button" class="btn" data-consent="granted">Accept</button></div></div></div>
 <script src="/app.js" defer></script>
 </body>
 </html>
