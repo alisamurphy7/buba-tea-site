@@ -68,27 +68,24 @@
     var todayIndex = DAYS.indexOf(now.day)
     if (todayIndex < 0) return null
 
+    // Вчерашняя смена могла ещё не закончиться — проверяем её первой.
+    var yesterday = hours[DAYS[(todayIndex + 6) % 7]]
+    if (yesterday && toMinutes(yesterday[1]) <= toMinutes(yesterday[0])) {
+      if (now.minutes < toMinutes(yesterday[1])) {
+        return { open: true, until: yesterday[1], today: now.day }
+      }
+    }
+
     var today = hours[now.day]
     if (today) {
       var opens = toMinutes(today[0])
       var closes = toMinutes(today[1])
       var overnight = closes <= opens
-      if (!overnight && now.minutes >= opens && now.minutes < closes) {
+      if (now.minutes >= opens && (overnight || now.minutes < closes)) {
         return { open: true, until: today[1], today: now.day }
       }
-      if (overnight && now.minutes >= opens) {
-        return { open: true, until: today[1], today: now.day }
-      }
-      if (!overnight && now.minutes < opens) {
+      if (now.minutes < opens) {
         return { open: false, next: today[0], today: now.day }
-      }
-    }
-
-    // Вчерашняя смена могла ещё не закончиться.
-    var yesterday = hours[DAYS[(todayIndex + 6) % 7]]
-    if (yesterday && toMinutes(yesterday[1]) <= toMinutes(yesterday[0])) {
-      if (now.minutes < toMinutes(yesterday[1])) {
-        return { open: true, until: yesterday[1], today: now.day }
       }
     }
 
