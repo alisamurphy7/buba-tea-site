@@ -121,6 +121,50 @@ h2 {
 .links-foot a { color: inherit; }
 .links-foot .ig { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
 .links-foot .ig svg { width: 18px; height: 18px; }
+/* Cookie banner: same markup, look and storage key ('buba-consent') as the
+   generated pages (src/styles.css .consent/.btn); /app.js shows it and saves the choice. */
+.consent {
+  position: fixed;
+  inset: auto 1rem 1rem;
+  z-index: 60;
+  background: var(--white);
+  border: 1px solid var(--stone);
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  padding: 1.25rem;
+  max-width: 640px;
+  margin-inline: auto;
+}
+.consent-inner { display: grid; gap: 1rem; }
+.consent p { font-size: 0.9375rem; color: var(--ink-soft); margin: 0.35rem 0 0; }
+.consent a { color: inherit; }
+.consent-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+@media (min-width: 640px) {
+  .consent-inner { grid-template-columns: 1fr auto; align-items: center; }
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.6rem;
+  min-height: 48px;
+  border: 2px solid var(--matcha);
+  border-radius: 999px;
+  background: var(--matcha);
+  color: var(--black);
+  font-family: var(--display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.btn:hover { background: #9fc75c; border-color: #9fc75c; }
+.btn:active { transform: translateY(1px); }
+.btn-ghost { background: transparent; border-color: var(--black); }
+.btn-ghost:hover { background: var(--black); border-color: var(--black); color: var(--white); }
 @media (prefers-reduced-motion: reduce) {
   .link { transition: none; }
 }
@@ -146,11 +190,11 @@ h2 {
     <h2 id="g-order">Order delivery</h2>
     <div class="stack">
       <!-- Ubud GoFood: same link as public/links/index.html (page title "BUBA TEA - Healthy Boba & Premium Bubble Tea, Ubud", Peliatan) -->
-      <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="gofood">
+      <a class="link link-primary" href="https://gofood.link/a/UVWLe2s" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="gofood" data-page="ubud">
         <span class="link-text">Order on GoFood <small>Ubud</small></span>
       </a>
       <!-- Ubud GrabFood: same link as public/links/index.html (merchant 6-C8KXEUCJA3V3LE) -->
-      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="grab">
+      <a class="link link-primary" href="https://food.grab.com/id/en/restaurant/online-delivery/6-C8KXEUCJA3V3LE" target="_blank" rel="noopener" data-track="delivery" data-outlet="ubud" data-platform="grab" data-page="ubud">
         <span class="link-text">Order on Grab <small>Ubud</small></span>
       </a>
     </div>
@@ -162,27 +206,10 @@ h2 {
   </footer>
 
 </main>
-<script>
-/* Same click tracking as /links/ (GA4 event buba_delivery, plus the Google Ads
-   conversion once window.BUBA has an adsId and label), with extra params so this
-   page's clicks can be told apart: outlet=ubud, platform=gofood|grab, page=ubud.
-   /app.js is not loaded here, so each click is sent once. */
-(function () {
-  var cfg = window.BUBA || {}
-  document.addEventListener('click', function (event) {
-    var el = event.target.closest ? event.target.closest('[data-track]') : null
-    if (!el || typeof window.gtag !== 'function') return
-    var action = el.getAttribute('data-track')
-    window.gtag('event', 'buba_' + action, {
-      outlet: el.getAttribute('data-outlet') || '',
-      platform: el.getAttribute('data-platform') || '',
-      page: 'ubud',
-      transport_type: 'beacon'
-    })
-    var label = cfg.labels && cfg.labels[action]
-    if (cfg.adsId && label) window.gtag('event', 'conversion', { send_to: cfg.adsId + '/' + label })
-  })
-})()
-</script>
+<div class="consent" id="consent" hidden role="dialog" aria-modal="false" aria-labelledby="consent-title"><div class="consent-inner"><div><strong id="consent-title">Cookies</strong><p>We use cookies to see how the site is used and which ads work. You can say no — nothing on the site stops working. <a href="/privacy/">Read the privacy policy</a></p></div><div class="consent-actions"><button type="button" class="btn btn-ghost" data-consent="denied">Decline</button><button type="button" class="btn" data-consent="granted">Accept</button></div></div></div>
+<!-- Clicks are tracked by /app.js like on /links/: GA4 event buba_delivery with
+     outlet=ubud, platform=gofood|grab, page=ubud from the data-* attributes (plus the
+     Google Ads conversion once window.BUBA has an adsId and label). -->
+<script src="/app.js" defer></script>
 </body>
 </html>
