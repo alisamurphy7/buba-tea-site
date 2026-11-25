@@ -392,10 +392,12 @@
   /**
    * Отправляет событие в GA4 и, если для действия задана метка, конверсию в Google Ads.
    * Пока ID не заполнены в business.json, gtag просто отсутствует и мы молча выходим.
+   * `params` — необязательные параметры события (outlet, platform, page).
    */
-  function track(action) {
+  function track(action, params) {
     if (typeof window.gtag !== 'function') return
-    window.gtag('event', 'buba_' + action)
+    if (params) window.gtag('event', 'buba_' + action, params)
+    else window.gtag('event', 'buba_' + action)
 
     var label = cfg.labels && cfg.labels[action]
     if (cfg.adsId && label) {
@@ -403,9 +405,22 @@
     }
   }
 
+  // Кнопки на /links/ и /ubud/ несут data-outlet (canggu|ubud), data-platform
+  // (gofood|grab) и data-page — по ним в GA4 видно, какая точка и какой сервис.
+  var TRACK_PARAMS = ['outlet', 'platform', 'page']
+
   document.addEventListener('click', function (event) {
     var el = event.target.closest ? event.target.closest('[data-track]') : null
-    if (el) track(el.getAttribute('data-track'))
+    if (!el) return
+    var params = null
+    TRACK_PARAMS.forEach(function (name) {
+      var value = el.getAttribute('data-' + name)
+      if (value) {
+        params = params || {}
+        params[name] = value
+      }
+    })
+    track(el.getAttribute('data-track'), params)
   })
 
   /* ── Форма кейтеринга → WhatsApp ────────────────────────────────────── */
