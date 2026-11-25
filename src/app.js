@@ -399,6 +399,14 @@
     if (params) window.gtag('event', 'buba_' + action, params)
     else window.gtag('event', 'buba_' + action)
 
+    // Своих измерений в GA4 нет, поэтому точку и сервис кладём ещё и в имя
+    // второго события: delivery_ubud_grab, delivery_canggu_gofood. buba_delivery
+    // остаётся общим итогом.
+    if (action === 'delivery' && params && params.outlet && params.platform) {
+      var name = ('delivery_' + params.outlet + '_' + params.platform).toLowerCase()
+      window.gtag('event', name, params)
+    }
+
     var label = cfg.labels && cfg.labels[action]
     if (cfg.adsId && label) {
       window.gtag('event', 'conversion', { send_to: cfg.adsId + '/' + label })
